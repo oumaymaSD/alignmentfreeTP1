@@ -4,14 +4,13 @@ from kmers import stream_kmers, kmer2str
 
 
 def similarity(A, inter, B):
-    # --- To complete ---
-    pass
+    
+   return (len(inter))/(len(A)+len(inter))
 
 
 def jaccard(A, inter, B):
-    # --- To complete ---
-    pass
-
+    
+   return (len(inter))/(len(A)+len(inter)+len(B))
 
 
 if __name__ == "__main__":
